@@ -1,0 +1,656 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  width: 100%;
+  height: 120vh;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100%;
+  height: 120vh;
+}
+.main-home{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.main-home .top-container{
+  width: 100%;
+  height: 140px;
+  border: 2px solid rgb(216, 213, 213);
+  display: flex;
+  flex-direction: row;
+}
+.top-container .menu-icon{
+  width: 5%;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-icon .openCloseIcon:hover{
+background-color: gray;
+cursor: pointer;
+transform: scale(1.18);
+padding: 5px;
+}
+.top-container .top-title{
+  width: 60%;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  background-color: white;
+  font-size: 16px;
+  border: none;
+  padding: 5pt;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  cursor: pointer;background-color: #ddd;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+.show {display: block;}
+
+.top-title p{
+  font-size: 22px;
+  color: orangered;
+  font-weight: bold;
+}
+.top-container .profile-cont{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  align-items: center;
+}
+.profile-cont img{
+  border-radius: 50%;
+}
+.profile-cont select{
+  width: 20px;
+  border: none;
+  text-align: center;
+  background-color: white;
+}
+.main-home .homeDetails-container{
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+}
+.homeDetails-container .registrar-dashboard-container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.registrar-dashboard-container .registrar-dashboard{
+    width: 28%;
+    height: 100px;
+    box-shadow: 5px 5px 5px 5px gray;
+    float: left;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.registrar-dashboard p{
+  height: 100%;
+  width: 30%;
+  font-size: 26px;
+  font-weight: bold;
+  background-color: orangered;
+  color: white;
+  float: right;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50% 0% 0% 50%;
+  margin-left: 10px;
+}
+.registrar-dashboard-container hr{
+  width: 10px;
+  height: 110px;
+  background-color: #1a162b;
+  margin-top: 10px;
+  float: left;
+}
+.registrar-dashboard h4{
+  float: left;
+  text-align: center;
+}
+.registrar-dashboard img{
+  float: left;
+  margin: auto;
+  margin-left: 10px;
+}
+/* for view request  conatainer*/
+.registrar-view-request-container{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+  }
+  .requests a{
+    text-decoration: none;
+    color: black;
+  }
+  .view-request-top-title{
+    width: 100%;
+    height: 60px;
+    background-color: orangered;
+  
+  }
+  .requests{ 
+    align-items: center;
+    width: 98%;
+    height: 40px;
+    margin-top: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+  }
+  .requests p{
+    margin-left: 20px;
+    float: left;
+  }
+  .requests img{
+    float: left;
+  }
+  .requests button{
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    background-color: white;
+    transition: .5s;
+    border-radius: 5px;
+    float: right;
+  }
+  .requests button:hover{
+    background-color: orangered;
+    transform: scale(1.18);
+    color: white;
+    cursor: pointer;
+  }
+  .create-user-account-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .create-account-dashboard-container{
+    width: 100%;
+    display: flex;
+  }
+  .create-account-dashboard{
+    width: 30%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin: 30px 10px 30px 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+  }
+  .create-account-dashboard h2{
+    margin-left: 10px;
+  }
+  .create-account-dashboard p{
+    font-size: 30px;
+    padding: 20px;
+    background-color: #1a162b;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  .user-account-select{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .user-account-select label{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .user-account-select select{
+    width: 60%;
+    margin-left: 5px;
+    padding: 10pt 0 10pt 0;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .create-user-account-container .top-container-registrar {
+    width: 100%;
+    background-color: rgb(8, 3, 49);
+    color: white;
+    text-align: center;
+  }
+  .create-user-account-container .student-account{
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .student-account p, .staff-account p{
+    width: 96%;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 22px;
+    color: white;
+    font-weight:bold ;
+    background-color: orangered;
+  }
+  .student-account form{
+    width: 100%;
+    display: flex;
+  }
+  .student-account .student-account-side{
+    width: 45%;
+    height: 100%;
+    margin: 20px;
+  }
+  .student-account form input{
+    width: 90%;
+    padding: 10pt;
+    margin: 10px;
+    font-size: 16px;
+  }
+  .student-account form select{
+    width: 90%;
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 10px;
+  }
+  .profile-pic img{
+    border-radius: 50%;
+  }
+  .student-account form h1{
+    width: 100%;
+    background-color: orangered;
+  }
+  .student-account form input[type="submit"]{
+    width: 120px;
+    background-color: white;
+    transition: 1s;
+    border: 1px solid black;
+  }
+  .student-account form input[type="submit"]:hover{
+   background-color: #1a162b;
+   transform: scale(1.18);
+   color: white;
+   cursor: pointer;
+  }
+  .student-account label{
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  /* staff account */
+  .create-user-account-container .staff-account{
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .staff-account form{
+    width: 100%;
+    display: flex;
+  }
+  .staff-account .staff-account-side{
+    width: 45%;
+    height: 100%;
+    margin: 20px;
+  }
+  .staff-account form input{
+    width: 90%;
+    padding: 10pt;
+    margin: 10px;
+    font-size: 16px;
+  }
+  .staff-account form select{
+    width: 90%;
+    padding: 10pt;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .staff-account form h1{
+    width: 100%;
+    background-color: orangered;
+  }
+  .staff-account form input[type="submit"]{
+    width: 120px;
+  }
+  .staff-account label{
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  /*  view staff and student profile container */
+  .view-student-profile-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .view-student-profile-container select{
+    width: 40%;
+    padding: 12pt;
+    font-size: 18px;
+    margin: 20px;
+  }
+  .view-student-profile-container label{
+    margin: 20px 0px 0px 20px;
+  }
+  .view-student-profile-tables-container .search-bar-container{
+    width: 100%;
+  }
+  .search-bar-container input{
+    width: 40%;
+    padding: 10pt;
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(6, 231, 247);
+  }
+  .view-student-profile-tables-container{
+    width: 96%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 10px;
+    margin-left: 5px;
+  }
+  .view-student-profile-tables-container table{
+    width: 98%;
+    border-collapse: collapse;
+    margin-left: 10px;
+    margin-bottom: 40px;
+  }
+  /* view staff profile */
+  .view-staff-profile-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .staff-table-container button{
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+    border: 1px solid black;
+  }
+  .student-table-container button{
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+    border: 1px solid black;
+  }
+  .view-staff-profile-container select{
+    width: 40%;
+    padding: 12pt;
+    font-size: 18px;
+    margin: 20px;
+  }
+  .view-staff-profile-container label{
+    margin: 20px 0px 0px 20px;
+  }
+  .view-staff-profile-tables-container .search-bar-container{
+    width: 100%;
+  }
+  .search-bar-container input{
+    width: 30%;
+    padding: 6pt;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(6, 231, 247);
+  }
+  .view-staff-profile-tables-container{
+    width: 96%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 10px;
+    margin-left: 5px;
+  }
+  .view-staff-profile-tables-container table{
+    width: 98%;
+    border-collapse: collapse;
+    margin-left: 10px;
+    margin-bottom: 40px;
+  }
+  /* staff profile end */
+
+    /* registrar view student profile */
+    .popup-student-profile-view-container{
+      display: none;
+      position: fixed;
+      align-items: center;
+      justify-content: center;
+      top: 30px;
+      left: 20%;
+      z-index: 5;
+      width: 60%;
+      background-color: white;
+      box-shadow: 2px 2px 2px 5px gray;
+      margin: auto;
+      flex-direction: column;
+      padding: 10px;
+      -webkit-animation-name: animatetop;
+      -webkit-animation-duration: 0.4s;
+      animation-name: animatetop;
+      animation-duration: 0.4s
+    }
+    .popup-student-profile-view-container p{
+      margin-top: 10px;
+      background-color: antiquewhite;
+      padding: 8px;
+    }
+    .popup-student-profile-view-container span{
+      font-size: 30px;
+      margin-left: 98%;
+      margin-top: 0;
+      color: red;
+      cursor: pointer;
+    }
+    /* registrar edit student profile */
+    /* registrar view student profile */
+    .popup-student-profile-edit-container{
+      display: none;
+      position: fixed;
+      align-items: center;
+      justify-content: center;
+      top: 5px;
+      bottom: 20px;
+      left: 20%;
+      z-index: 5;
+      width: 60%;
+      background-color: white;
+      box-shadow: 2px 2px 2px 5px gray;
+      margin: auto;
+      flex-direction: column;
+      padding: 10px;
+      -webkit-animation-name: animatetop;
+      -webkit-animation-duration: 0.4s;
+      animation-name: animatetop;
+      animation-duration: 0.4s
+    }
+    .popup-student-profile-edit-container span{
+      font-size: 25px;
+      margin-left: 98%;
+      margin-top: 0;
+      color: red;
+      cursor: pointer;
+    }
+    .popup-student-profile-edit-container .profile-detail{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .popup-student-profile-edit-container .profile-detail input[type="text"]{
+      width: 90%;
+      margin: auto;
+      padding: 6pt;
+      border: 1px solid rgb(5, 212, 240);
+      font-size: 16px;
+    }
+    .popup-student-profile-edit-container .profile-detail label{
+      margin-top: 10px;
+      margin-left: 30px;
+    }
+    .popup-student-profile-edit-container .profile-detail input[type="submit"]{
+      width: 20%;
+      padding: 10pt;
+      background-color: rgb(7, 195, 228);
+      margin: auto;
+      margin-top: 10px;
+      border-radius: 20px;
+    }
+
+    /* success popup container */
+@media only screen and (max-width:912px){
+  .times-side{
+    display: none;
+  }
+    .homeDetails-container{
+        width: 100%;
+        height: 120vh;
+        margin-bottom: 20px;
+    }
+    .top-title p{
+      font-size: 13px;
+    }
+    .registrar-dashboard-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 120vh;
+        margin-bottom: 40px;
+        overflow: scroll;
+    }
+    .registrar-dashboard-container .registrar-dashboard{
+        float: none;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .registrar-dashboard-container hr{
+      display: none;
+  }
+    .registrar-view-request-container .requests{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+   }
+    .create-user-account-container .student-account{
+      width: 100%;
+      display: none;
+      flex-direction: column;
+    }
+    .student-account .student-account-left-side{
+      width: 100%;
+    }
+    .student-account form{
+      width: 100%;
+    }
+    .student-account form h1{
+      font-size: 12px;
+    }
+    .create-user-account-container .staff-account{
+      width: 100%;
+      display: none;
+      flex-direction: column;
+    }
+    .staff-account .staff-account-left-side{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .staff-account-left-side img{
+      width: 50%;
+      height: 50%;
+    }
+    .staff-account form{
+      width: 100%;
+    }
+    .staff-account form h1{
+      font-size: 12px;
+    }
+    .search-bar-container input{
+      width: 80%;
+    }
+    table{
+      font-size: 12px;
+    }
+    table button{
+      float: left;
+      margin-bottom: 10px;
+    }
+    .popup-student-profile-view-container{
+      width: 90%;
+      left: 10px;
+    }
+    .popup-student-profile-edit-container{
+      width: 80%;
+      left: 10px;
+      right: 10px;
+    }
+    .popup-student-profile-edit-container .profile-detail input[type="text"]{
+      width: 90%;
+    }
+    .popup-student-profile-edit-container .profile-detail input[type="submit"]{
+      width: 80%;
+    }
+    footer{
+      width: 100%;
+      display: flex;
+      position: fixed;
+      bottom: 0;
+      align-items: center;
+      justify-content: center;
+      background: #312F3A;
+      color: white;
+      text-align: center;
+      padding-top: 20px;
+     padding-bottom: 20px;
+  }
+}

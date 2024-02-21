@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 5px gray;
+    background-color: #0e113a;
+    color: white;
+}
+nav .logo-container{
+    margin-left: 10px;
+}
+nav .texts-container{
+    margin-left: 20px;
+}
+.texts-container p{
+    font-size: 24px;
+    color: orangered;
+    font-weight: bold;
+}
+.texts-container h1{
+    font-size: 34px;
+}
+.date-time-container{
+    margin-left: 160px;
+    border: 2px solid orangered;
+    border-radius: 20px;
+    padding: 10px;
+}
+.main-container{
+    width: 100%;
+    display: flex;
+}
+.main-container .left-side-container{
+    width: 98%;
+    height: 100%;
+    margin: 10px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+.left-side-container .approve-reject-buttons-container input{
+    margin: 20px;
+    border: none;
+    background-color: green;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    padding: 10pt;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.left-side-container .approve-reject-buttons-container input:hover{
+    transform: scale(1.08);
+    transition: 1s;
+}
+.main-container .detail{
+    display: flex;
+}
+.left-side-container h3{
+    margin-bottom: 20px;
+    background-color: bisque;
+}
+.detail p{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: beige;
+    font-size: 18px;
+}
+.allApprove p{
+    margin-left: 10%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+    width: 50%;
+}
+.allApprove label{
+    width: 30%;
+    font-weight: bold;
+}
+.infos{
+    display: flex;
+}
+.status-detail h3{
+    width: 50%;
+}
+footer{
+    width: 100%;
+    background: #1a162b;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+  }

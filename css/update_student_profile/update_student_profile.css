@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.student-profile-edit-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 98%;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px gray;
+  margin: auto;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 60px;
+}
+.student-profile-edit-container .profile-detail{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.student-profile-edit-container .profile-detail input[type="text"]{
+  width: 90%;
+  margin: auto;
+  padding: 10pt;
+  border: 1px solid rgb(206, 207, 207);
+  font-size: 16px;
+}
+.student-profile-edit-container .profile-detail label{
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.student-profile-edit-container .profile-detail input[type="submit"]{
+  width: 120px;
+  padding: 10pt;
+  background-color:green;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+  margin-top: 30px;
+  float: left;
+}
+.student-profile-edit-container .profile-detail input[type="button"]{
+  width: 120px;
+  padding: 10pt;
+  background-color:red;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+  margin-top: 30px;
+  float: left;
+}
+.edit-cancel-buttons{
+  display: flex;
+}
+.profile-detail a{
+  float: left;
+}
+footer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #311a31;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

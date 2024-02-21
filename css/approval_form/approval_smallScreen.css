@@ -1,0 +1,50 @@
+@media only screen and (max-width:912px){
+    nav{
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    nav .logo-container{
+        margin:0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav .texts-container{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    nav .date-time-container{
+        margin-top: 10px;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .texts-container h1{
+        font-size: 20px;
+    }
+    .texts-container p{
+        font-size: 14px;
+        text-align: center;
+    }
+    .main-container .left-side-container{
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .main-container .right-side-container{
+        width: 100%;
+        margin: 0;
+    }
+    .right-side-container .infos{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,184 @@
+@media only screen and (max-width:912px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+      }
+    .top-container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .top-title{
+        margin: 0;
+        padding: 0;
+    }
+    .profile-cont p{
+        font-size: 12px;
+    }
+    .top-title h1{
+        font-size: 18px;
+    }
+    .top-title p{
+        font-size: 12px;
+    }
+    .sidebar-container{
+        width: 100%;
+        height: 100%;
+        display: none;
+        flex-direction: column;
+        transition: .5s;
+      }
+      .dropdown-container{
+        display: flex;
+        height: 100%;
+      }
+      .side-bar-itmes{
+        margin: 0;
+        padding: 0;
+      }
+    .dashboard-container{
+     width: 100%;
+     display: flex;
+     margin: 0;
+     padding: 0;
+     flex-direction: column;
+     overflow: scroll;
+    }
+    .dashboard-container .dashboard{
+        width: 90%;
+        margin-top: 20px;
+        padding: 0;
+        box-shadow: 5px 5px 5px 6px gray;
+        border-radius: 20px;
+    }
+    .dashboard-container hr{
+        display: none;
+    }
+    .requests{
+        height: 120px;
+    }
+    .requests button{
+        padding: 2px;
+    }
+    .requests p{
+        font-size: 12px;
+    }
+    .openCloseIcon{
+        display: none;
+    }
+    .forSmall{
+        display: flex;
+    }
+    .material-lend-register{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .material-lend-register form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .material-lend-register form input[type="text"],input[type="date"]{
+        width: 90%;
+        margin: 10 5px 0 0;
+        padding: 10px 0 10px 0;
+    }
+    .material-lend-register label{
+        margin: 0;
+    }
+    .material-lend-register form .form-row{
+        width: 100%;
+        padding: 0;
+        box-shadow: none;
+    }
+    .form-row .two{
+        margin-bottom: 40px;
+      }
+
+    .table-of-record-container{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .table-of-record-container table{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        font-size: 8px;
+    }
+    .search-bar-container input{
+        width: 80%;
+    }
+    .edit-delete-btn button{
+        padding: 0;
+    }
+    .popup-profile-container{
+        width: 80%;
+        left: 20px; 
+        right: 20px;
+        top:30px;
+    }
+    .popup-profile-container .profile-detail{
+        width: 100%;
+    }
+    .popup-profile-container .profile-picture-container{
+        width: 100%;
+    }
+    .popup-profile-container .profile-container{
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+    }
+    .popup-change-password-container{
+        width: 80%;
+        left: 20px;
+        right: 20px;
+        top: 30px;
+    }
+    .popup-change-password-container h2{
+        font-size: 22px;
+        color: orangered;
+    }
+    footer{
+        width: 100%;
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (width:1024px){
+    .sidebar-container{
+        width: 55%;
+    }
+    .side-bar-itmes li a{
+        font-size: 16px;
+    }
+    .dropdown-button{
+        font-size: 16px;
+    }
+}
+@media only screen and (width:1280px){
+    .sidebar-container{
+        width: 55%;
+    }
+    .side-bar-itmes li a{
+        font-size: 16px;
+    }
+    .dropdown-button{
+        font-size: 16px;
+    }
+}

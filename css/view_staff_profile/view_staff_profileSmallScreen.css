@@ -1,0 +1,15 @@
+@media only screen and (max-width:912px){
+    .profile-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-container .profile-detail{
+        width: 100%;
+    }
+    .profile-picture-container{
+        width: 100%;
+    }
+    .profile-container .profile-picture-bg{
+        width: 98%;
+    }
+}

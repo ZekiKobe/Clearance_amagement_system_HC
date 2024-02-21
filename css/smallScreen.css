@@ -1,0 +1,234 @@
+@media only screen and (max-width:912px) {
+    body{
+        width: 100%;
+        height: 100%;
+    }
+ .top-container{
+     width: 100%;
+ }
+.menu-icon .smallScreen-Menu-icon{
+   display: flex;
+ }
+ .menu-icon .openCloseIcon{
+   display: none;
+ }
+ .container{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+ }
+ .sidebar-container{
+   width: 100%;
+   height: 100%;
+   display: none;
+   flex-direction: column;
+   transition: .5s;
+ }
+ .top-container .top-title{
+     margin-left: 0;
+ }
+ .top-title h1{
+    font-size: 18px;
+    font-weight: bold;
+ }
+ .top-title p{
+    margin-left: 20px;
+    font-size: 13px;
+    color: orangered;
+    font-weight: bold;
+ }
+ .overflow-container{
+    width: 100%;
+    height: 120vh;
+ }
+ .overflow-container .notifications-container{
+    width: 100%;
+    overflow: scroll;
+ }
+ .popup-profile-container{
+    width: 100%;
+     display: none;
+     flex-direction: column;
+     left: 0;
+ }
+ .popup-profile-container .profile-detail{
+   width: 100%;
+ }
+ .popup-profile-container .profile-picture-container{
+   width: 100%;
+ }
+ .profile-picture-bg{
+    width: 90%;
+    height: 50%;
+ }
+ .popup-profile-container .profile-detail label{
+     font-size: 12px;
+ }
+ .popup-profile-container .profile-detail p{
+     font-size: 10px;
+ }
+ .profile-container{
+     display: flex;
+     flex-direction: row;
+ }
+ .top-container .top-title h2{
+     font-size: 12px;
+     font-weight: bolder;
+     margin-left: 10px;
+ }
+ .top-container .menu-icon{
+     font-size: 18px;
+     background-color: white;
+ }
+ .n-text h2{
+     font-size: 11px;
+ }
+ .n-text p{
+     font-size: 10px;
+ }
+ .n-icon p{
+     margin-left: 0;
+     padding: 0;
+     font-size: 10px;
+     display: block;
+ }
+ .view-not .view-btn{
+     width: 60px;
+     padding: 2px;
+ }
+ .n-icon .notifon{
+     font-size: 10px;
+     color: black;
+ }
+ i{
+     display: inline-block;
+ }
+ .n-icon i{
+     width: 5px;
+     height: 5px;
+     font-size: small;
+ }
+ .student-account form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+ .student-account form .student-account-side{
+    width: 80%;
+    box-shadow: none;
+    padding: 0;
+ }
+ .staff-account form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+ .staff-account form .staff-account-side{
+    width: 80%;
+    box-shadow: none;
+    padding: 0;
+ }
+ .staff-account form select{
+    width: 90%;
+ }
+ .staff-account input ,.student-account input{
+    width: 90%;
+ }
+ .create-account-dashboard{
+    display: flex;
+    flex-direction: column;
+    float: none;
+    padding-top: 10px;
+ }
+ .create-account-dashboard p{
+    width: 30%;
+    height: 30%;
+    font-size: 2px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .create-account-dashboard h2{
+    font-size: 12px;
+ }
+ form hr{
+    display: none;
+ }
+ .requests p{
+    padding: 0;
+    font-size: 8px;
+    font-weight: none;
+ }
+ /* form popup of change password container
+ */
+ .popup-change-password-container{
+     width: 90%;
+     left: 0;
+     display: none;
+ }
+ .changepw-buttons input{
+     margin-left: 20px;
+ }
+ .changepw-buttons input[type="button"]{
+     margin-left: 40px;
+ }
+ .popup-change-password-container .cp-title-above {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+@media only screen and (max-width:1024px){
+    .n-text h2{
+        font-size: 16px;
+    }
+    .n-text p{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:393px){
+    .n-text h2{
+        font-size: 8px;
+    }
+    .n-text p{
+        font-size: 8px;
+    }
+    .n-icon .date{
+        margin-left: 5px;
+    }
+    .request-clearance .top-titile-cont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .request-clearance .top-titile-cont h1{
+        font-size: 12px;
+        text-align: center;
+    }
+    /* popup change password conatainer
+    */
+    .popup-change-password-container{
+        display: none;
+        width: 80%;
+        left: 5%;
+    }
+    .popup-change-password-container .cp-title-above{
+        font-size: 12px;
+    }
+    .change-pw-form-container input[type="password"]{
+      width: 70%;
+      padding: 8px;
+    }
+    .change-pw-form-container label{
+        font-size: 11px;
+    }
+    .changepw-buttons input{
+        padding: 9px;
+        font-size: 12px;
+        margin-left: 10px;
+        width: 100px;
+    }
+}

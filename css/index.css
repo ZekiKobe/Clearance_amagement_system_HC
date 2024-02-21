@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('images/dep.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.menu-icon-container{
+    display: none;
+}
+.nav-conitainer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(27, 27, 48);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: .5s;
+}
+.logo-container{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(27, 27, 48);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid rgb(130, 135, 167);
+    border-radius: 20px;
+}
+.logo-container img{
+    margin-left: 40px;
+    border-radius: 50%;
+}
+.nav-bar {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+}
+.nav-bar ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 19px;
+    font-weight: bolder;
+    color: white;
+    margin: 40px;
+
+}
+.nav-bar ul a{
+    text-decoration: none;
+
+}
+.nav-bar ul a li:hover{
+ color: orange;
+ cursor: pointer;
+}
+.date-container{
+    margin: 20px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 5pt;
+}
+/*Home title description
+*/
+.home-container{
+    width: 98%;
+    height: 100vh;
+    background-color: rgb(27, 27, 48);
+    display: flex;
+    flex-direction: column;
+}
+.home-container .title-container{
+    width: 90%;
+    height: 80%;
+    background-color: rgb(43, 67, 88);
+    display: flex;
+    padding: 15px;
+    color: white;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+ .footer-container{
+     width: 100%;
+     height: 100px;
+     background-color: rgb(21, 18, 34);
+     text-align: center;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+@media only screen and (max-width:768px){
+    .menu-icon-container{
+        display: flex;
+        height: 60px;
+        margin-bottom: 10px;
+        box-shadow: 2px 2px 2px 2px gray;
+    }
+    .home-container{
+        width: 100%;
+    }
+    .home-container .title-container{
+        margin: 0;
+    }
+    .home-container .purpose-description{
+        width: 94%;
+    }
+    .purpose-description h1, .purpose-description h2{
+        font-size: 12px;
+    }
+    .purpose-description b{
+        font-size: 12px;
+    }
+    .purpose-description p{
+        font-size: 10px;
+    }
+    .nav-conitainer{
+        width: 100%;
+        height: 100%;
+        display: none;
+        flex-direction: column;
+        margin: 0;
+        transition: .5s;
+    }
+    .nav-bar ul{
+        display: flex;
+        flex-direction: column;
+    }
+}

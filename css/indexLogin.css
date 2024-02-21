@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 160px;
+    background-color: #1a162b;
+    display: flex;
+}
+.logo{
+    margin: 10px;
+}
+.logo img{
+    width: 140px;
+    height: 140px;
+}
+.top-texts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.top-texts h1{
+    font-size: 46px;
+    color: white;
+}
+.top-texts p{
+    font-size: 20px;
+    color: white;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 140px;
+
+
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px solid white;
+    padding: 5pt 10pt 5pt 10pt;
+    border-radius: 10px;
+    transition: .5s;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.18);
+}
+
+/* main container */
+
+.main-container{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+.main-container .mission-container{
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.38);
+}
+.main-container .vision-container{
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    background-color: #313a3a;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+}
+@media only screen and (max-width:912px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    nav{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    nav .logo{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    nav .logo img{
+        width: 60px;
+        height: 60px;
+    }
+    nav ul li a{
+        padding: 2px 10px 2px 10px;
+        margin: 0;
+    }
+    .top-texts{
+        margin: 0;
+    }
+    .top-texts h1{
+        font-size: 16px;
+    }
+    .top-texts p{
+        font-size: 12px;
+    }
+    nav ul{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    nav ul{
+        margin-top: 10px;
+
+    }
+    .main-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+    }
+    .main-container .main-container{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .main-container .vision-container{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    footer{
+        position: relative;
+    }
+}
+@media only screen and (max-width:1024px){
+    nav ul{
+        margin-left: 40px;
+    }
+}
