@@ -70,12 +70,4 @@ Security: Digital Signature Integration
 - Organizations for employee exit clearance
 
 - Departments requiring multi-level approval workflows
-  ### admin login
-username : admin
-password : 123456
 
- ### student login
-
-username : Ramit/2035/11
-password : 123456
-#### admin can create other staffs account
